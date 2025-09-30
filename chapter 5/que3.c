@@ -1,9 +1,9 @@
 #include<stdio.h>
-int sum(int a ,int b);
-void printTable(int n);
+int sum(int a ,int b); //user defined function//
+void printTable(int n); //user defined function//
 
 
-int main()
+int main() //pre-defined function//
 {
     int n ;
     printf("enter  number :  ");
