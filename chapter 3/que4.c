@@ -5,7 +5,7 @@ int main(){
     printf ("Enter a character : ");
     scanf("%c",&ch);
 
-    if (ch>=97 && ch<=256){
+    if (ch>=97 && ch<=122){
 
         printf("The character entered is lowercase ");
 
