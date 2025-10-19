@@ -1,17 +1,23 @@
 #include<stdio.h>
-int fact (int n);
+int factorial (int a);
 
-int main(){
-    printf("sum is : %d",fact(5));
+int factorial (int a){
 
-
-}
-int fact (int n){
-    if (n == 1){
+    if (a==1 || a == 0){
 
         return 1;
     }
-    int factNm1 = fact(n-1);
-    int factn = factNm1 * n;
-    return factn;
+    else {
+        return a * factorial(a-1); 
+    }
+    
+}
+int main(){
+
+    int num;
+    printf("Enter a number: ");
+    scanf("%d",&num);
+
+    int result = factorial(num);
+    printf("The factorial of %d is: %d\n",num,result);
 }

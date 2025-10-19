@@ -43,9 +43,6 @@ int main() {
 
     printf("You guessed the number in %d guesses", NoG);
 
-
-    
-
-    return 0;
+return 0;
 }
 
